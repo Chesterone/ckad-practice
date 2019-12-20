@@ -1,7 +1,10 @@
+### Namespace
 * Create namespace `scenario1`. All following objects are created inside this namespace
+### Deployment
 * Create deployment named `nginx` with image `nginx:1.16` with 2 replicas with attached service on port `80`
 * Get service IP address
 * Run busybox container and bash into it. Curl the service IP address. Note the output.
+### ConfigMap
 * Create ConfigMap `index` from file `index.html`
 * Create ConfigMap `env-vars` from file `config.env`
 * Create ConfigMap `env-title` with variable `title` equal to `CKAD is easy`
