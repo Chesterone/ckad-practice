@@ -2,7 +2,7 @@
 * Create aliases: k, kex, kc, kr, kn
 * <details>
   <summary>Solution</summary> 
-  ```
+  ```bash
   code
   ```
 </details>
