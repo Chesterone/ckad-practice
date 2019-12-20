@@ -10,6 +10,7 @@
   ```
   
 </details>
+
 ### Namespace
 * Create namespace `scenario1`. All following objects are created inside this namespace
 ### Deployment
