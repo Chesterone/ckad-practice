@@ -1,8 +1,9 @@
 ### Preparation
 * Create aliases: k, kex, kc, kr, kn
 
-<details>
+* <details>
   <summary>Solution</summary> 
+ 
 ```
 alias k=kubectl
 alias kex="kubectl explain"
@@ -10,6 +11,7 @@ alias kc="kubectl create"
 alias kr="kubectl run --restart=Never"
 alias kn='kubectl config set-context --current --namespace '
 ```
+
 </details>
 
 ### Namespace
