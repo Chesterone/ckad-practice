@@ -1,6 +1,6 @@
 ### Preparation
 * Create aliases: k, kex, kc, kr, kn
-
+* Set text editor
 <details>
   <summary>Solution</summary> 
  
@@ -10,8 +10,24 @@ alias kex="kubectl explain"
 alias kc="kubectl create"
 alias kr="kubectl run --restart=Never"
 alias kn='kubectl config set-context --current --namespace '
+export KUBE_EDITOR=nano
 ```
 
+</details>
+
+### Before starting the new task
+* Switch context
+* Switch and check namespace
+* Get all namespace objects
+
+<details>
+  <summary>Solution</summary> 
+ 
+```
+k config use-context k8s
+kn NAMESPACE
+k get all
+```
 </details>
 
 ### Namespace
