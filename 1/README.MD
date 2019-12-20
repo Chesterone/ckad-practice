@@ -1,7 +1,7 @@
 ### Preparation
 * Create aliases: k, kex, kc, kr, kn
 
-* <details>
+<details>
   <summary>Solution</summary> 
  
 ```
